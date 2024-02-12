@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Ubuntu:wght@700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Ubuntu';
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbar{
+    padding: 4vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logo{
+    font-size: 35px;
+    color: darkblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a{
+    margin-right: 1vw;
+}
+
+.links a:hover{
+    color: darkblue;
+}
+
+.login button.sign-in{
+    padding: 8px 14px;
+    margin-right: 1vw;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+}
+
+.login button.sign-up{
+    padding: 8px 14px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}

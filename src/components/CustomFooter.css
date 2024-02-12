@@ -1,0 +1,28 @@
+.footer{
+    margin-top: 20px;
+    background-color: black;
+    padding: 45px;
+}
+
+.footer a,.footer h1,.footer p,.footer i{
+    color: white;
+}
+
+.links, .social-medias, .footer p{
+    text-align: right;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.social-medias i{
+    margin-right: 13px;
+    margin-left: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.social-medias i:hover{
+    color: darkblue;
+}

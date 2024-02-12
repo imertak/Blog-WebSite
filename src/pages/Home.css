@@ -1,0 +1,184 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 70px;
+}
+
+.header img {
+    height: 70vh;
+}
+
+
+.home-logo {
+    color: darkblue;
+    font-size: 62px;
+}
+
+.home-title {
+    font-size: 62px;
+}
+
+.read-button {
+    margin-top: 1vh;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 60px;
+    width: 250px;
+}
+
+.trends {
+    margin: 0px 70px;
+}
+
+.categories-button {
+    display: flex;
+    margin: 15px 0;
+}
+
+.categories-button button {
+    margin-right: 5px;
+    font-size: 11px;
+    padding: 8px 14px;
+    border-radius: 14px;
+    background-color: #dfdcdc;
+    border: none;
+    cursor: pointer;
+    transition: all 0.35s ease;
+}
+
+.categories-button button:hover {
+    color: white;
+    background-color: darkblue;
+}
+
+.trend-blogs {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid.fa-arrow-right,
+.fa-solid.fa-arrow-left {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.trend-blogs img {
+    width: 100%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.trend-blog {
+    padding: 15px;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    width: 25%;
+    transition: all 0.3s ease;
+}
+
+.trend-blog:hover {
+    background-color: rgb(0, 0, 53);
+}
+
+.trend-blog a {
+    color: white;
+    position: relative;
+}
+
+.trend-blog a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    /* Alt çizgi kalınlığı */
+    background-color: white;
+    /* Alt çizgi rengi */
+    transition: width 0.3s ease;
+    /* Geçiş efekti */
+}
+
+.trend-blog a:hover::before {
+    width: 100%;
+}
+
+.trend-blog p {
+    margin-top: 5px;
+    color: white;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.blog-title {
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+
+}
+
+.blog-description {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.blog-user {
+    padding: 1%;
+    background-color: gainsboro;
+    border-radius: 14px;
+}
+
+
+
+.admins {
+    display: flex;
+    margin-top: 5px;
+}
+
+.admin {
+    padding: 10px;
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 25%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.admin:hover {
+    background-color: rgb(0, 0, 53);
+}
+
+.admin img {
+    height: 60px;
+    border-radius: 10px;
+}
+
+.admin a {
+    padding: 10px;
+    color: white;
+}
+
+.admin p {
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+    font-family: sans-serif;
+}
